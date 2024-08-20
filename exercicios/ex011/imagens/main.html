@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente criar esse site em varios dispositivos diferentes ou simplesmente aumente e diminui o0 tamanho</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="foto-p.png" type="foto-p.png">
+        <source media="(max-width: 1000px )" srcset="foto-p" type="image/">
+        <img src="foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reprozidondo audio</h1>
+   <p>vamos reproduzir</p>
+   <audio src="Luz Solart - Luna Cantina.mp3"></audio>
+   <audio preload="metadata" autoplay controls loop></audio>
+   <source src="Luz Solart - Luna Cantina.mp3" type="audio/wav">
+</body>
+</html>

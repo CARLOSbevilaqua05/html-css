@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* EM HTML É ID = EM CSS É #
+   EM HTML É CLASS = EM CSS É .
+*/
+body{
+    background-color:rgb(223, 223, 223);
+  
+   font-family: 'love' ;
+   src: url('Kalnia_Glaze/KalniaGlaze-VariableFont_wdth\,wght.ttf') format('truetype'), url('Kalnia_Glaze/KalniaGlaze-VariableFont_wdth\,wght.ttf')format('opentype');
+  }
+   h1{
+    color: #185BF5;
+    text-align: center;
+    
+ }
+
+ h2{
+   color:#18A1F5;
+    text-align: center;
+    
+}
+ h1#principal{
+             color:  #110072;          
+            text-align: center;
+            background-color: #aaeaba;
+            text-align: center;
+        }
+ h2.basico{
+          text-align: center; 
+          color: black;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+ } 
+   
+ .intermediario{
+                color:black;
+                text-align: center;
+               
+
+ }
+   p{ 
+    text-align: center;
+    font-family: 'love' 
+   
+ }
