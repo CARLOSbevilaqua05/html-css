@@ -7,6 +7,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+           
             
         }
 
@@ -27,11 +28,21 @@
         td.num{
             text-align: right
         }
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n){ /* EFEITO ZEBRADO /*/
+            background-color: lightgray;
+        }
       
     </style>
 
 </head>
 <body>
+    
     <h1>Uso de tabelas grandes</h1>
                         <!--
                         anatomia para tabelas grandes
@@ -48,7 +59,7 @@
             <thead>
                 <tr>
                     <th>Estado</th>
-                    <th>População</th>
+                    <th style="width: 50px;">População</th>
                 </tr>
             </thead>
             <tbody>
@@ -71,6 +82,8 @@
                 <td>00000</td>
              </tr>
            </tfoot>
+        
+        <caption>População das unidades federativas</caption>
         </table>
     </div>
 </body>
