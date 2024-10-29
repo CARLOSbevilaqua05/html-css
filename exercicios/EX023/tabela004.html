@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela completa</title>
+    <style>
+        body > h1{
+            font-family: fantasy;
+    
+        }
+        body{
+             background-color: rgba(5, 42, 100, 0.459);
+
+            }
+        
+
+        table{
+            border-collapse: collapse;
+            
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th,td {
+            border:1px solid gray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas </h1>
+    <table>
+        <caption>
+            Filmes favotitos
+        </caption>
+        <thead>
+           <tr>
+            <th>Grupos</th>
+            <th>Nomes</th>
+            <th colspan="3">filmes</th>
+           </tr> 
+        </thead>
+         <tbody>
+            <tr>
+             <th rowspan="3">Mulheres</th>
+             <td>Ana maria</td>
+             <td>Alien</td>
+             <td>Rambo</td>
+             <td>Vingadores</td>
+            </tr>
+
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batmam</td>
+            </tr>
+            <tr>
+                <td>Claudia melo</td>
+                <td>Obvion</td>
+                <td>matriz</td>
+                <td>BIG hero</td>
+            </tr>
+            <tr>
+                <td rowspan="3"> HOMENS</td>
+                <td>Bruno medonca</td>
+                <td>amnesia</td>
+                <td>Gladiador</td> 
+                <td>BOB</td>
+            </tr>
+             <tr>
+                <td>Daniel</td>
+                <td>STAR</td>
+                <td>OLDBOY</td>
+                <td>dangel</td>
+             </tr>    
+             <tr>
+                <td>Fbiana mota</td>
+                <td>toy sotory</td>
+                <td>Dragon ball</td>
+                <td>NAruto</td>
+
+             </tr>
+            
+        </tbody>    
+    </table>
+</body>
+</html>
