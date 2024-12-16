@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
-h1{
-    color: aqua;
+body {
+    background-image: url(../imagem/cev-landscape.jpg);
+     
 }
