@@ -14,7 +14,7 @@ html{
 
 
 body{
-    background: black url(../IMAGENS/back-phone.jpg) no-repeat;
+    background-image: url(../IMAGENS/back-tv.jpg);
     background-size: cover;
     background-position: center center;
 }

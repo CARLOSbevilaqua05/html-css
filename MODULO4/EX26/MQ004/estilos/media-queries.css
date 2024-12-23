@@ -1,6 +1,72 @@
 @charset "UTF-8";
 /*Versao para todos*/
 
+/* TODAS AS DEMIAS MIDIAS*/
+/*
+PEQUENAS TELAS: ATE 600PX
+CELULAR: 600 A 768 PX
+TABLET : 768 ATE 992PX
+DESKTOP: 992 ATE 1200PX
+GRANDES TELAS ACIMA DE 1200
+*/
+
 @media print{
-    
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  
+  
+    body{  background-image: url(../IMAGENS/back-print.jpg);
+
+
+ }
+}
+
+main{
+    border:solid 2px black
+}
+
+main h1{
+    text-shadow: none;
+    color: black;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 992px){ /* TABLET */
+     body{
+        background-image: url(../IMAGENS/back-tablet.jpg);
+     }
+  
+img#phone {display:block;}
+img#tablet {display:none;}
+img#print {display:none;}
+img#pc {display:none;}
+img#tv {display:none;}
+
+}
+
+
+
+@media screen and (min-width:992px) and(max-width: 1200px){ /* DESKTOP */
+    body{
+        background-image: url(../IMAGENS/back-pc.jpg);
+    }
+   
+    img#phone {display:block;}
+    img#tablet {display:none;}
+    img#print {display:none;}
+    img#pc {display:none;}
+    img#tv {display:none;}
+}
+
+@media screen and (min-width:1200px) { /*GRANDES TELAS*/
+     body{
+        background-image: url(../IMAGENS/back-tv.jpg);
+     }
+     
+img#phone {display:block;}
+img#tablet {display:none;}
+img#print {display:none;}
+img#pc {display:none;}
+img#tv {display:none;}
 }
