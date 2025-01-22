@@ -1,0 +1,13 @@
+@charset "URF-8";
+
+div.container{
+    background-color: lightcoral;
+    display: flex;
+}
+
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    flex:auto;
+    text-align: center;
+}
