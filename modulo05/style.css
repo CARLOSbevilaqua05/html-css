@@ -5,17 +5,20 @@ div.container{
     display: flex;
     flex-direction: column;
     margin: 20px;
+   
+
 }
 
 div.item{
     background-color: lightblue;
     border: 1px solid black;
     flex:auto;
-    text-align: center;
+    text-align: center ;
 }
 
 div.item:hover{
     background-color: blueviolet;
-    font-size: 3em;
+    font-size: 10em;
     box-shadow: 5px 4px 3px 2px black;
+    
 }
