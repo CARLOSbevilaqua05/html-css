@@ -3,6 +3,8 @@
 div.container{
     background-color: lightcoral;
     display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
 
 div.item{
@@ -10,4 +12,10 @@ div.item{
     border: 1px solid black;
     flex:auto;
     text-align: center;
+}
+
+div.item:hover{
+    background-color: blueviolet;
+    font-size: 3em;
+    box-shadow: 5px 4px 3px 2px black;
 }
